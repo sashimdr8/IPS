@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gradient_splash_screen"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ivLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="60dp"
+            android:text="Registration"
+            android:textColor="@color/textWhite"
+            android:textSize="@dimen/textSizeLarge" />
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivLogo"
+            android:layout_margin="@dimen/padding_large"
+            android:background="@drawable/bg_white_trans_rectangle"
+            android:padding="@dimen/padding_small">
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username_mobile"
+                android:inputType="text"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:textColor="@color/textWhite"
+                android:textColorHint="@color/transparentWhite"
+                android:textSize="@dimen/textSize"
+                app:backgroundTint="@android:color/transparent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/etUsername"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:background="@color/transparentWhite" />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etUsername"
+                android:hint="@string/mobile"
+                android:inputType="text"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:textColor="@color/textWhite"
+                android:textColorHint="@color/transparentWhite"
+                android:textSize="@dimen/textSize"
+                app:backgroundTint="@android:color/transparent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/etMobile"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:background="@color/transparentWhite" />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etMobile"
+                android:hint="@string/email_address"
+                android:inputType="text"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:textColor="@color/textWhite"
+                android:textColorHint="@color/transparentWhite"
+                android:textSize="@dimen/textSize"
+                app:backgroundTint="@android:color/transparent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/etEmailAddress"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:background="@color/transparentWhite" />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etEmailAddress"
+                android:hint="@string/password"
+                android:inputType="text"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:textColor="@color/textWhite"
+                android:textColorHint="@color/transparentWhite"
+                android:textSize="@dimen/textSize"
+                app:backgroundTint="@android:color/transparent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/etPassword"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:background="@color/transparentWhite" />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etPassword"
+                android:hint="@string/confirm_password"
+                android:inputType="text"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:textColor="@color/textWhite"
+                android:textColorHint="@color/transparentWhite"
+                android:textSize="@dimen/textSize"
+                app:backgroundTint="@android:color/transparent" />
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="@drawable/bg_white_button"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="@string/sign_up"
+            android:textColor="@color/colorPrimary" />
+
+
+        <RelativeLayout
+            android:id="@+id/bottomRL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/transparentLightWhite"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/already_have_an_account_login"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

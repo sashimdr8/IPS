@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="font_icon_play">o</string>
+    <string name="font_icon_add_image">x</string>
+    <string name="font_icon_feedback">m</string>
+    <string name="font_icon_news">r</string>
+    <string name="font_icon_article">n</string>
+    <string name="font_icon_arrow_left">e</string>
+    <string name="font_icon_user">A</string>
+    <string name="font_icon_phone">p</string>
+    <string name="font_icon_address">t</string>
+    <string name="font_icon_email">u</string>
+    <string name="font_icon_lock">q</string>
+    <string name="font_icon_home">y</string>
+    <string name="font_icon_info">a</string>
+    <string name="font_icon_activities">b</string>
+    <string name="font_icon_acts">c</string>
+    <string name="font_icon_gallery">w</string>
+    <string name="font_icon_video">B</string>
+    <string name="font_icon_complain">j</string>
+    <string name="font_icon_survey">n</string>
+    <string name="font_icon_notification">i</string>
+    <string name="font_icon_log_out">v</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>Home</item>
+        <item>About Us</item>
+        <item>Activities</item>
+        <item>Acts/Policy</item>
+        <item>News &amp; Events</item>
+        <item>Gallery</item>
+        <item>Video</item>
+        <item>Complain</item>
+        <item>Feedback</item>
+        <item>Survey</item>
+        <item>Notification</item>
+        <item>Change Password</item>
+        <item>Login</item>
+    </string-array>
+
+    <string-array name="ld_activityScreenIcons">
+        <item>@string/font_icon_home</item>
+        <item>@string/font_icon_info</item>
+        <item>@string/font_icon_activities</item>
+        <item>@string/font_icon_acts</item>
+        <item>@string/font_icon_news</item>
+        <item>@string/font_icon_gallery</item>
+        <item>@string/font_icon_video</item>
+        <item>@string/font_icon_complain</item>
+        <item>@string/font_icon_feedback</item>
+        <item>@string/font_icon_survey</item>
+        <item>@string/font_icon_notification</item>
+        <item>@string/font_icon_lock</item>
+        <item>@string/font_icon_log_out</item>
+    </string-array>
+
+    <string-array name="array_title">
+
+        <item>Select Title</item>
+
+        <item>Survey</item>
+
+        <item>Complain</item>
+
+    </string-array>
+
+
+</resources>

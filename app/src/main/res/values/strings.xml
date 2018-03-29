@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">IPS</string>
+    <string name="welcome_to_hpcidbc"><![CDATA[<b><font size="20"><b>Welcome to </b></font><br><br><font size="60"><b>HDCIDBC</b></font>]]></string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="write_your_complain">Write Your Complain</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="message">Message</string>
+    <string name="submit">Submit</string>
+    <string name="write_your_feedback">Write Your Feedback</string>
+    <string name="username_mobile">Username/Mobile</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_member_signup">New Member! Signup</string>
+    <string name="forgot_your_password">Forgot your Password?</string>
+    <string name="email_address">Email Address</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="change_password">Change Password</string>
+    <string name="about_me">About Me</string>
+    <string name="write_about_yourself">Write about yourself</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="already_have_an_account_login">Already have an account ! Login</string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="next">Next</string>
+    <string name="thank_you">Thank You!!!</string>
+    <string name="lorem_ipsum">Teller tell the lorem ipsum is the standard dummy text of all the time</string>
+    <string name="write_your_message_here">Write Your message here</string>
+</resources>
